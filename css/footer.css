@@ -1,0 +1,12 @@
+
+.footer-content{
+    border: 2PX solid red;
+    width: auto;
+    height: auto;
+}
+.footer-content img{
+    width: 140px;
+}
+.footer-content .COPYWRITER{
+    text-align: center;
+}

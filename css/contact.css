@@ -1,0 +1,43 @@
+.CONTACT{
+    color: beige;
+    text-shadow: 1px 1px 2px beige, 0 0 1em #87CEEB, 0 0 0.2em #87CEEB;
+    text-align: center;
+}
+.inputname{
+ margin: 35px;
+    width: 600px; 
+    height: 40px;
+}
+.inputprenom{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 600px; 
+    height: 40px;
+}
+.inputemail{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 600px; 
+    height: 40px;
+}
+.inputtext{
+    margin-bottom: 5px;
+    margin-left: 30px;
+    width: 600px; 
+    height: 100px;
+}
+.ENVOYER{
+    margin: 20px;
+    border-radius: 8PX;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 30%;
+    background: none;
+    color: white;
+}
+.ENVOYER:hover{
+    opacity: 0.4;
+}
+em{
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+@import url(section.css);
+@import url(footer.css);
+@import url(article1.css);
+@import url(article2.css);
+@import url(article3.css);
+@import url(contact.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+header{
+    height: 120px;
+    border-bottom: 1px solid gray;
+}
+header .contentheader .content{
+    display: grid;
+    grid-template-columns: 150px 2fr 20px;
+}
+header .content{
+    display: flex;
+    flex-direction: column;
+}
+header .contentheader .content ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+header .contentheader .content ul li a{
+    width: auto;
+    justify-content: space-between;
+}
+header .content  h1{
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    color: white; 
+    text-shadow: 1px 1px 2px white, 0 0 1em #6aa5e9, 0 0 0.2em #77B5FE;
+    text-align: center;
+    padding-right: 150px;
+    
+    }
+    header .iconheader{
+        text-align:center;
+        margin:auto;
+        line-height: normal;
+    }

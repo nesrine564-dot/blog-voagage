@@ -1,0 +1,129 @@
+body{
+  background: url(../img/voyage-entre-copine.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+    section{
+        margin-bottom: 40%;
+    }
+    section DIV UL{
+        list-style-type: none;
+        margin-bottom: 60px;
+    }
+    section DIV UL li{
+        display: inline-block;
+    }
+    section DIV UL li a{
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-right: 15 px;
+    }
+    section DIV UL li a:hover{
+        opacity: 0.5;
+        color: pink;
+    
+    }
+    /* partie menu deroulant*/
+    section DIV UL li .sub-menu{
+    display: none;
+    border: 1px solid black;
+    }
+    section DIV UL li:hover .sub-menu{
+        display: block;
+        position: absolute;
+        background: linear-gradient(20DEG, #89cff0, white);
+        border-radius: 5PX;
+        width: 15%;
+        padding-top: 20px;
+    
+    }
+    section DIV UL li:hover .sub-menu ul li{
+        display: block;
+        position: absolute;
+        margin: 10px;
+        border-bottom: 1px solid gray;
+        width: 80px;
+        text-align: left;
+    }
+    section DIV UL li:hover .sub-menu ul li:last-child{
+        border-bottom: none;
+    }
+    /*SUB MENU 1*/
+    .sub-menu1 ul p{
+        color: gray;
+        text-transform: uppercase;
+    }
+    section DIV UL .sub-menu1{
+        display: flex;
+    }
+    section DIV UL li .sub-menu1{
+        display: none;
+        border: 1px solid black;
+        text-transform: uppercase;
+    }
+    section DIV UL li a .sub-menu1{
+        width: 500px;
+        height: auto;
+    }
+    section DIV UL li:hover .sub-menu1{
+        display: block;
+        position: absolute;
+        background: linear-gradient(20DEG, #89cff0, white);
+        border-radius: 5PX;
+        width: 40%;
+        padding-top: 20px;
+    }
+    section DIV UL li:hover .sub-menu1 ul li{
+        display: block;
+        margin: 20px;
+        border-bottom: 1px solid gray;
+        width: 100px;
+        text-align: left;
+    }
+    section DIV UL li:hover .sub-menu1 ul li:last-child{
+        border-bottom: none;
+    }
+    
+    /* section partie2*/
+    .PARTIE2{
+        margin-bottom: 20px;
+    }
+    .blog-copines {
+        text-align: center;
+        background: linear-gradient(45DEG, white, #89cff0);
+    }
+    .blog-copines H2{
+        font-family: 'Times New Roman', Times, serif;
+        color:  white;
+    }
+    .blog-copines a{
+    background-color: beige;
+    color: pink;
+    }
+    .blog-copines p{
+      background: -webkit-linear-gradient(20DEG, #89cff0, pink);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform:capitalize;
+    }
+    /*PARTIE3*/
+    .PARTIE3{
+        background-color: white;
+        height: 200px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .PARTIE3 .article-recent h2{
+        text-align: center;
+        text-transform: capitalize;
+        
+    }
+    .PARTIE3 .article-recent img{
+        width: 200px;
+        height: 100px;
+        justify-content: space-between;
+   
+    }
